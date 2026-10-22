@@ -1,6 +1,9 @@
 name: Build MLBB Companion APK
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
